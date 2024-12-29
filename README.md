@@ -6,16 +6,16 @@ Science Plots
         <tr>
             <td style="text-align: center;">PyPI version</td>
             <td style="text-align: center;">
-                <a href="https://badge.fury.io/py/SciencePlots">
-                    <img src="https://badge.fury.io/py/SciencePlots.svg" alt="PyPI version" height="18"/>
+                <a href="https://badge.fury.io/py/pubpy">
+                    <img src="https://badge.fury.io/py/pubpy.svg" alt="PyPI version" height="18"/>
                 </a>
             </td>
         </tr>
         <tr>
             <td style="text-align: center;">conda-forge version</td>
             <td style="text-align: center;">
-                <a href="https://anaconda.org/conda-forge/scienceplots">
-                    <img src="https://anaconda.org/conda-forge/scienceplots/badges/version.svg" alt="conda-forge version" height="18"/>
+                <a href="https://anaconda.org/conda-forge/pubpy">
+                    <img src="https://anaconda.org/conda-forge/pubpy/badges/version.svg" alt="conda-forge version" height="18"/>
                 </a>
             </td>
         </tr>
