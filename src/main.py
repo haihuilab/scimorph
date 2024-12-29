@@ -34,5 +34,5 @@ if __name__ == '__main__':
     plt.plot(x, y)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.savefig(f'{dir}/examples/plots/fig01a.png')
+    plt.savefig(f'{dir}/examples/plots/fig01a.jpg')
     plt.show()

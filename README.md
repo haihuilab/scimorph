@@ -65,15 +65,15 @@ cd pubpy
 pip install -e .
 ```
 
-From version `v1.1.0` on, `import pubpy` is needed on top of your scripts so Matplotlib can make use of the styles.
+From version `v1.0.0` on, `import pubpy` is needed on top of your scripts so Matplotlib can make use of the styles.
 
 **Notes:** 
-- SciencePlots requires matplotlib or seaborn
+- pubpy-theme_publication requires matplotlib or seaborn
 
 Using the Styles
 ----------------
 
-``"science"`` is the primary style in this repo. Whenever you want to use it, simply add the following to the top of your python script:
+``"publication"`` is the primary style in this repo. Whenever you want to use it, simply add the following to the top of your python script:
 
 ```python
 import matplotlib.pyplot as plt
