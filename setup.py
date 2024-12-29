@@ -1,7 +1,7 @@
-"""Install pubpy.
+"""Install scimorph.
 
-This script (setup.py) will install the pubpy package.
-In order to expose .mplstyle files to matplotlib, "import pubpy"
+This script (setup.py) will install the scimorph package.
+In order to expose .mplstyle files to matplotlib, "import scimorph"
 must be called before theme_publication(...).
 """
 
@@ -14,8 +14,8 @@ with open(os.path.join(root, 'README.md'), 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='pubpy',
-    version='1.0.2',
+    name='scimorph',
+    version='1.0.0',
     author="Haihui Zhang",
     author_email="hanfei19@gmail.com",
     maintainer="Haihui Zhang",
@@ -24,12 +24,12 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     license="BSD 3-Clause License",
-    url="https://github.com/haihuilab/pubpy/",
+    url="https://github.com/haihuilab/scimorph/",
 
     install_requires=['matplotlib'],
-    packages=["pubpy"],
+    packages=["scimorph"],
     package_data={
-      'pubpy': ['styles/**/*.mplstyle'],
+      'scimorph': ['styles/**/*.mplstyle'],
     },
 
     classifiers=[
