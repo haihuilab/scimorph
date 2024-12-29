@@ -1,4 +1,4 @@
-pubpy-theme_publication
+pubpy: theme_publication
 =============
 
 <p align="left">
