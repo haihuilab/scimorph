@@ -47,9 +47,6 @@ The easiest way to install scimorph is by using `pip`:
 # to install the latest release (from PyPI)
 pip install scimorph
 
-# to install the latest release (using Conda)
-conda install -c conda-forge scimorph
-
 # to install the latest commit (from GitHub)
 pip install git+https://github.com/haihuilab/scimorph
 
