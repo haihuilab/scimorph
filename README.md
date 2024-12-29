@@ -1,4 +1,4 @@
-pubpy: theme_publication
+scimorph: theme_publication
 =============
 
 <p align="left">
@@ -6,16 +6,16 @@ pubpy: theme_publication
         <tr>
             <td style="text-align: center;">PyPI version</td>
             <td style="text-align: center;">
-                <a href="https://badge.fury.io/py/pubpy">
-                    <img src="https://badge.fury.io/py/pubpy.svg" alt="PyPI version" height="18"/>
+                <a href="https://badge.fury.io/py/scimorph">
+                    <img src="https://badge.fury.io/py/scimorph.svg" alt="PyPI version" height="18"/>
                 </a>
             </td>
         </tr>
         <tr>
             <td style="text-align: center;">conda-forge version</td>
             <td style="text-align: center;">
-                <a href="https://anaconda.org/conda-forge/pubpy">
-                    <img src="https://anaconda.org/conda-forge/pubpy/badges/version.svg" alt="conda-forge version" height="18"/>
+                <a href="https://anaconda.org/conda-forge/scimorph">
+                    <img src="https://anaconda.org/conda-forge/scimorph/badges/version.svg" alt="conda-forge version" height="18"/>
                 </a>
             </td>
         </tr>
@@ -23,9 +23,9 @@ pubpy: theme_publication
 </p>
 
 > **Warning**
-> : The `pubpy` library requires LaTeX for math formatting. Install it using:
+> : The `scimorph` library requires LaTeX for math formatting. Install it using:
 >   `sudo apt install texlive texlive-latex-extra texlive-fonts-recommended cm-super dvipng`.
-> : Starting with version 1.0.0, you must add `import pubpy` **before** setting the style with `theme_publication('publication')`.
+> : Starting with version 1.0.0, you must add `import scimorph` **before** setting the style with `theme_publication('publication')`.
 
 
 *Matplotlib styles for scientific figures*
@@ -33,36 +33,36 @@ pubpy: theme_publication
 This repo has Matplotlib styles to format your figures for scientific papers, presentations and theses.
 
 <p align="center">
-<img src="https://github.com/haihuilab/pubpy/blob/main/examples/plots/fig01a.jpg" width="500">
+<img src="https://github.com/haihuilab/scimorph/blob/main/examples/plots/fig01a.jpg" width="500">
 </p>
 
-You can find [the full tutorials of pubpy here](https://github.com/haihuilab/pubpy/wiki/Gallery).
+You can find [the full tutorials of scimorph here](https://github.com/haihuilab/scimorph/wiki/Gallery).
 
 Getting Started
 ---------------
 
-The easiest way to install pubpy is by using `pip`:
+The easiest way to install scimorph is by using `pip`:
 
 ```bash
 # to install the latest release (from PyPI)
-pip install pubpy
+pip install scimorph
 
 # to install the latest release (using Conda)
-conda install -c conda-forge pubpy
+conda install -c conda-forge scimorph
 
 # to install the latest commit (from GitHub)
-pip install git+https://github.com/haihuilab/pubpy
+pip install git+https://github.com/haihuilab/scimorph
 
 # to clone and install from a local copy
-git clone https://github.com/haihuilab/pubpy.git
-cd pubpy
+git clone https://github.com/haihuilab/scimorph.git
+cd scimorph
 pip install -e .
 ```
 
-From version `v1.0.0` on, `import pubpy` is needed on top of your scripts so Matplotlib can make use of the styles.
+From version `v1.0.0` on, `import scimorph` is needed on top of your scripts so Matplotlib can make use of the styles.
 
 **Notes:** 
-- pubpy-theme_publication requires matplotlib or seaborn
+- scimorph-theme_publication requires matplotlib or seaborn
 
 Using the Styles
 ----------------
@@ -71,7 +71,7 @@ Using the Styles
 
 ```python
 import matplotlib.pyplot as plt
-import pubpy
+import scimorph
 
 theme_publication('publication')
 ```
@@ -83,7 +83,7 @@ Examples
 import matplotlib.pyplot as plt
 import numpy as np
 from pathlib import Path
-from pubpy.theme_publication import theme_publication
+from scimorph.theme_publication import theme_publication
 dir = Path.cwd()
 print('parent dir: ',dir)
 
@@ -105,21 +105,21 @@ plt.show()
 ```
 The basic ``publication`` style is shown below:
 
-<img src="https://github.com/haihuilab/pubpy/raw/main/examples/plots/fig01a.jpg" width="500">
+<img src="https://github.com/haihuilab/scimorph/raw/main/examples/plots/fig01a.jpg" width="500">
 
 
 
-If you use ``pubpy`` in your paper/thesis, feel free to add it to the list!
+If you use ``scimorph`` in your paper/thesis, feel free to add it to the list!
 
-Citing pubpy:
+Citing scimorph:
 -------------------
 
-    @article{pubpy,
+    @article{scimorph,
       author       = {Haihui Zhang et al},
-      title        = {haihuilab/pubpy},
+      title        = {haihuilab/scimorph},
       month        = Jan,
       year         = 2025,
       publisher    = {github},
       version      = {1.0.0},      
-      url          = {https://github.com/haihuilab/pubpy}
+      url          = {https://github.com/haihuilab/scimorph}
     }

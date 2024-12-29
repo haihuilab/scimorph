@@ -1,7 +1,7 @@
 import numpy as np
 from pathlib import Path
 import matplotlib.pyplot as plt
-from pubpy import theme_publication
+from scimorph import theme_publication
 
 dir = Path.cwd()
 print('Current dir:',dir)
