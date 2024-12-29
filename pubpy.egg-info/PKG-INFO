@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pubpy
-Version: 1.0.0
+Version: 1.0.1
 Summary: Scientific theme of Matplotlib for publication 
 Home-page: https://github.com/haihuilab/pubpy/
 Author: Haihui Zhang
@@ -16,7 +16,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: matplotlib
 
-Science Plots
+pubpy: theme_publication
 =============
 
 <p align="left">
@@ -24,16 +24,16 @@ Science Plots
         <tr>
             <td style="text-align: center;">PyPI version</td>
             <td style="text-align: center;">
-                <a href="https://badge.fury.io/py/SciencePlots">
-                    <img src="https://badge.fury.io/py/SciencePlots.svg" alt="PyPI version" height="18"/>
+                <a href="https://badge.fury.io/py/pubpy">
+                    <img src="https://badge.fury.io/py/pubpy.svg" alt="PyPI version" height="18"/>
                 </a>
             </td>
         </tr>
         <tr>
             <td style="text-align: center;">conda-forge version</td>
             <td style="text-align: center;">
-                <a href="https://anaconda.org/conda-forge/scienceplots">
-                    <img src="https://anaconda.org/conda-forge/scienceplots/badges/version.svg" alt="conda-forge version" height="18"/>
+                <a href="https://anaconda.org/conda-forge/pubpy">
+                    <img src="https://anaconda.org/conda-forge/pubpy/badges/version.svg" alt="conda-forge version" height="18"/>
                 </a>
             </td>
         </tr>
@@ -51,7 +51,7 @@ Science Plots
 This repo has Matplotlib styles to format your figures for scientific papers, presentations and theses.
 
 <p align="center">
-<img src="https://github.com/haihuilab/pubpy/examples/plots/fig01a.jpg" width="500">
+<img src="https://github.com/haihuilab/pubpy/blob/main/examples/plots/fig01a.jpg" width="500">
 </p>
 
 You can find [the full tutorials of pubpy here](https://github.com/haihuilab/pubpy/wiki/Gallery).
@@ -123,7 +123,7 @@ plt.show()
 ```
 The basic ``publication`` style is shown below:
 
-<img src="https://github.com/haihuilab/pubpy/examples/plots/fig01a.jpg" width="500">
+<img src="https://github.com/haihuilab/pubpy/raw/main/examples/plots/fig01a.jpg" width="500">
 
 
 

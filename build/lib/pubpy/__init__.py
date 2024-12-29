@@ -1,1 +1,1 @@
-from src.pubpy import theme_publication
+from theme_publication import theme_publication
