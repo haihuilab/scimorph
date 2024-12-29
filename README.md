@@ -33,7 +33,7 @@ pubpy: theme_publication
 This repo has Matplotlib styles to format your figures for scientific papers, presentations and theses.
 
 <p align="center">
-<img src="https://github.com/haihuilab/pubpy/examples/plots/fig01a.jpg" width="500">
+<img src="https://github.com/haihuilab/pubpy/blob/main/examples/plots/fig01a.jpg" width="500">
 </p>
 
 You can find [the full tutorials of pubpy here](https://github.com/haihuilab/pubpy/wiki/Gallery).
