@@ -105,7 +105,7 @@ plt.show()
 ```
 The basic ``publication`` style is shown below:
 
-<img src="https://github.com/haihuilab/pubpy/examples/plots/fig01a.jpg" width="500">
+<img src="https://github.com/haihuilab/pubpy/raw/main/examples/plots/fig01a.jpg" width="500">
 
 
 
