@@ -20,21 +20,21 @@ setup(
     author_email="hanfei19@gmail.com",
     maintainer="Haihui Zhang",
     maintainer_email="hanfei19@gmail.com",
-    description="Scientific publication theme for Matplotlib",
+    description="Scientific theme of Matplotlib for publication ",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    license="MIT",
+    license="BSD 3-Clause License",
     url="https://github.com/haihuilab/pubpy/",
 
     install_requires=['matplotlib'],
-    packages=["scienceplots"],
+    packages=["pubpy"],
     package_data={
-      'scienceplots': ['styles/**/*.mplstyle'],
+      'pubpy': ['styles/**/*.mplstyle'],
     },
 
     classifiers=[
         'Framework :: Matplotlib', 
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD 3-Clause License',
         'Programming Language :: Python :: 3'
     ],
     keywords=[

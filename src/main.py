@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from pathlib import Path
-from pubpy import theme_publication#, savefig
+from theme_publication import theme_publication
 import argparse
 
 
