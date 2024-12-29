@@ -21,7 +21,7 @@ if __name__ == '__main__':
     import numpy as np
     from pathlib import Path
     dir = Path.cwd()
-    print('parent dir::::',dir)
+    print('parent dir: ',dir)
     x = np.linspace(0, 2 * np.pi, 500)
     y = np.sin(x)
     # df = pd.DataFrame({'x': x, 'y': y})

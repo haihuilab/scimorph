@@ -19,20 +19,14 @@ Science Plots
                 </a>
             </td>
         </tr>
-        <tr>
-            <td style="text-align: center;">DOI</td>
-            <td style="text-align: center;">
-                <a href="https://zenodo.org/badge/latestdoi/144605189">
-                    <img src="https://zenodo.org/badge/144605189.svg" alt="DOI" height="18"/>
-                </a>
-            </td>
-        </tr>
     </table>
 </p>
 
 > **Warning**
-> : The `pubpy` needs LaTeX for math formatting: `sudo apt install texlive texlive-latex-extra texlive-fonts-recommended cm-super dvipng`
-> : As of version 1.0.0, you need to add `import pubpy` before setting the style (`theme_publication('publication')`).
+> : The `pubpy` library requires LaTeX for math formatting. Install it using:
+>   `sudo apt install texlive texlive-latex-extra texlive-fonts-recommended cm-super dvipng`.
+> : Starting with version 1.0.0, you must add `import pubpy` **before** setting the style with `theme_publication('publication')`.
+
 
 *Matplotlib styles for scientific figures*
 
@@ -91,7 +85,7 @@ import numpy as np
 from pathlib import Path
 from pubpy.theme_publication import theme_publication
 dir = Path.cwd()
-print('parent dir::::',dir)
+print('parent dir: ',dir)
 
 x = np.linspace(0, 2 * np.pi, 500)
 y = np.sin(x)
@@ -126,7 +120,6 @@ Citing pubpy:
       month        = Jan,
       year         = 2025,
       publisher    = {github},
-      version      = {1.0.0},
-      doi          = {......},
+      version      = {1.0.0},      
       url          = {https://github.com/haihuilab/pubpy}
     }
