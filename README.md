@@ -1,4 +1,4 @@
-Science Plots
+pubpy-theme_publication
 =============
 
 <p align="left">
