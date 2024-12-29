@@ -85,7 +85,30 @@ theme_publication('publication')
 
 Examples
 --------
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+from pathlib import Path
+from pubpy.theme_publication import theme_publication
+dir = Path.cwd()
+print('parent dir::::',dir)
 
+x = np.linspace(0, 2 * np.pi, 500)
+y = np.sin(x)
+# df = pd.DataFrame({'x': x, 'y': y})
+
+theme_publication('publication', 
+                    figsize='medium', 
+                    fontsize=None, 
+                    grid=True,
+                    border=True)
+plt.plot(x, y)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.savefig(f'{dir}/examples/plots/fig01a.jpg')
+plt.show()
+
+```
 The basic ``publication`` style is shown below:
 
 <img src="https://github.com/haihuilab/pubpy/examples/plots/fig01a.jpg" width="500">
