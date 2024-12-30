@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     theme_publication('publication', 
                       figsize='medium', 
-                      fontsize=None, 
+                      fontsize=20, 
                       grid=True,
                       border=True)
     plt.plot(x, y)
