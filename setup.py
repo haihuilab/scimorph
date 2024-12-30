@@ -15,7 +15,7 @@ with open(os.path.join(root, 'README.md'), 'r', encoding='utf-8') as f:
 
 setup(
     name='scimorph',
-    version='1.0.0',
+    version='1.0.1',
     author="Haihui Zhang",
     author_email="hanfei19@gmail.com",
     maintainer="Haihui Zhang",
