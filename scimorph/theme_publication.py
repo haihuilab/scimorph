@@ -98,7 +98,35 @@ def theme_publication(style='publication', figsize=(3, 3), fontsize=None, grid=F
         plt.gca().spines['right'].set_linewidth(0)
         plt.gca().spines['bottom'].set_linewidth(0.5)
         plt.gca().spines['left'].set_linewidth(0.5)
-    
+
+
+    #-------------------------------------------
+    # for subplots
+    # Update subplot font sizes
+    for ax in plt.gcf().get_axes():
+        ax.title.set_size(fontsize)
+        ax.xaxis.label.set_size(fontsize)
+        ax.yaxis.label.set_size(fontsize)
+        for label in ax.get_xticklabels() + ax.get_yticklabels():
+            label.set_fontsize(fontsize)
+
+    # Enable grid if requested
+    if grid:
+        for ax in plt.gcf().get_axes():
+            ax.grid(True, linestyle='--', linewidth=0.5, alpha=0.7)
+
+    # Configure border visibility and linewidth
+    for ax in plt.gcf().get_axes():     
+        if border:
+            ax.spines['top'].set_linewidth(0.5)
+            ax.spines['right'].set_linewidth(0.5)
+            ax.spines['bottom'].set_linewidth(0.5)
+            ax.spines['left'].set_linewidth(0.5)
+        else:
+            ax.spines['top'].set_linewidth(0)
+            ax.spines['right'].set_linewidth(0)
+            ax.spines['bottom'].set_linewidth(0.5)
+            ax.spines['left'].set_linewidth(0.5)
 
 
 
